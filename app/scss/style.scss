@@ -1,9 +1,7 @@
-html {
-  box-sizing: border-box;
-}
+@import 'base/vars';
+@import 'base/global';
+@import 'base/fonts';
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
+// components
+@import "components/header";
